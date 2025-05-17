@@ -12,6 +12,11 @@ body {
 
 .content {
   padding: 30px;
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 1em;
 }
 
 h2 {
@@ -29,6 +34,34 @@ form {
   padding: 20px;
 }
 
+#sign-up-form,
+#sign-in-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 1em;
+}
+
+.form-input-control {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+.form-submit-control {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.form-group-horizontal-control {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
 .subtext {
   color: #a9a9a9;
   font-weight: unset;
@@ -37,6 +70,11 @@ form {
 #sign-in,
 #sign-up {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 10px;
+  padding: 20px;
 }
 
 a {

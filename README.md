@@ -36,15 +36,15 @@ This assignment should prove that a student is able to:
 
 ## Standard requirements
 
-- [ ] Fork the project to your github account
-- [ ] Clone the project to your computer
-- [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
-- [ ] This Assignment is NOT tested. You can use all the desired creativity!
+- [x] Fork the project to your github account
+- [x] Clone the project to your computer
+- [x] Open the project in VSCode with `code <cloned_repo_folder_name>`
+- [x] This Assignment is NOT tested. You can use all the desired creativity!
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
-- [ ] The project's file/folder structure should NOT be edited!
-- [ ] The ecommerce-page.html file should NOT be edited!
+- [x] The project's file/folder structure should NOT be edited!
+- [x] The ecommerce-page.html file should NOT be edited!
 - [ ] The code of the index.html and styles.css should pass the W3C validation (Feel free to use either the "w3c web validator" VSCode extension or the "Online w3c Markup Validation Service")
-- [ ] The code MUST be formatted with Prettier.
+- [x] The code MUST be formatted with Prettier.
 - [ ] Push the changes to the Github repo, when finished.
 - [ ] Submit a .txt file with the Github repo url.
 
@@ -56,12 +56,12 @@ You'll discover certain styles existing in the initial state of the CSS files. T
 
 Acceptance criteria:
 
-- [ ] The layout should closely resemble the mockup.
-- [ ] Avoid using margin and float CSS rules to define distance/space between elements or their alignment.
-- [ ] Positioning (utilizing the position CSS property) is prohibited.
-- [ ] Edit the following files:
-  - [ ] html: `/pages/authentication-form.html`
-  - [ ] css: `/css/authentication-form.css`
+- [X] The layout should closely resemble the mockup.
+- [X] Avoid using margin and float CSS rules to define distance/space between elements or their alignment.
+- [X] Positioning (utilizing the position CSS property) is prohibited.
+- [X] Edit the following files:
+  - [X] html: `/pages/authentication-form.html`
+  - [X] css: `/css/authentication-form.css`
 
 Create the form HTML elements to imitate the mockup:
 
