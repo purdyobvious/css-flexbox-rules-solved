@@ -231,52 +231,24 @@ i.fa-th-list {
 /* LINE VIEW STYLES */
 
 .lines.products {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 20px;
-  max-width: 100%;
-  padding: 30px;
 }
 
 .lines .product {
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .lines .product-image-wrapper {
   min-width: 300px;
   height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .lines .product-data {
-  display: flex;
-  padding: 20px;
-  justify-content: row;
-  align-items: center;
 }
 
 .lines .product-info {
-  text-align: left;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
 }
 
 .lines .product-action {
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
-  padding: 10px 0;
-  justify-content: space-between;
 }
 
 /* LINES-ACTION VIEW */
