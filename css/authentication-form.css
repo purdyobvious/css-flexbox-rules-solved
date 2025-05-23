@@ -72,11 +72,14 @@ form {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: space-between;
   gap: 10px;
   padding: 20px;
 }
 
+#city,
+#state {
+  height: 30px;
+}
 a {
   color: #335eea;
   text-decoration: none;
@@ -120,4 +123,8 @@ input[type="submit"]:hover {
 
 .form select {
   height: 30px;
+}
+
+.form-input-control {
+  width: 100%;
 }
